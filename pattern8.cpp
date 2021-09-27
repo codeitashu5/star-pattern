@@ -6,7 +6,7 @@ void printSolidPiramid(int m){
     int n = m*2-1;
     int d1 = 1;
     int d2 = n;
-    while(d1<=d2){
+    while(d1<=n){
         char a = 'p';
         for(int j=1;j<=n;j++){
              if(j>=d1&&j<=d2){
@@ -27,8 +27,6 @@ void printSolidPiramid(int m){
         cout<<endl;
     } 
 }
-
-
 
 int main(){
    int m;
