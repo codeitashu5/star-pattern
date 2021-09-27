@@ -1,7 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-
 void sloidRectangel(int m,int n){
     for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
@@ -12,7 +10,6 @@ void sloidRectangel(int m,int n){
 }
 
 int main(){
-   
      int n,m;
      cin>>m>>n;
      sloidRectangel(m,n);
